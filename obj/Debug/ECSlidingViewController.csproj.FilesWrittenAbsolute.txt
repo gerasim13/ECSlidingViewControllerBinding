@@ -1,0 +1,5 @@
+/Users/pavellitvinenko/Documents/Projects/Telesite/Libraries/ECSlidingViewController/obj/Debug/MonoTouch,Version=v1.0.AssemblyAttribute.cs
+/Users/pavellitvinenko/Documents/Projects/Telesite/Libraries/ECSlidingViewController/bin/Debug/ECSlidingViewController.dll.mdb
+/Users/pavellitvinenko/Documents/Projects/Telesite/Libraries/ECSlidingViewController/bin/Debug/ECSlidingViewController.dll
+/Users/pavellitvinenko/Documents/Projects/Telesite/Libraries/ECSlidingViewController/obj/Debug/ECSlidingViewController.dll
+/Users/pavellitvinenko/Documents/Projects/Telesite/Libraries/ECSlidingViewController/obj/Debug/ECSlidingViewController.dll.mdb
