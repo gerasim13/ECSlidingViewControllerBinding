@@ -47,11 +47,11 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Xamarin.ObjcBinding.CSharp.targets" />
   <ItemGroup>
-    <Compile Include="ECSlidingViewController.linkwith.cs">
-      <DependentUpon>ECSlidingViewController.a</DependentUpon>
-    </Compile>
+    <ObjcBindingNativeLibrary Include="libECSlidingViewController.a" />
   </ItemGroup>
   <ItemGroup>
-    <ObjcBindingNativeLibrary Include="ECSlidingViewController.a" />
+    <Compile Include="libECSlidingViewController.linkwith.cs">
+      <DependentUpon>libECSlidingViewController.a</DependentUpon>
+    </Compile>
   </ItemGroup>
 </Project>
