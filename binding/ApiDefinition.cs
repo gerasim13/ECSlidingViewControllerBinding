@@ -4,20 +4,13 @@ using MonoTouch.ObjCRuntime;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
 
-namespace ECSlidingViewControllerLibrary
+namespace ECSlidingViewControllerLib
 {
 	public delegate void ECSlidingViewAnimationComplete ();
 
 	[BaseType (typeof (UIViewController))]
 	public partial interface ECSlidingViewController
 	{
-		[Static, Export ("slidingWithTopViewController:")]
-		ECSlidingViewController SlidingWithTopViewController (UIViewController topViewController);
-
-		[Export ("initWithTopViewController:")]
-		IntPtr Constructor (UIViewController topViewController);
-
-
 		[Field ("ECTransitionContextTopViewControllerKey", "__Internal")]
 		NSString ECTransitionContextTopViewControllerKey { get; }
 
@@ -27,6 +20,11 @@ namespace ECSlidingViewControllerLibrary
 		[Field ("ECTransitionContextUnderRightControllerKey", "__Internal")]
 		NSString ECTransitionContextUnderRightControllerKey { get; }
 
+		[Static, Export ("slidingWithTopViewController:")]
+		ECSlidingViewController SlidingWithTopViewController (UIViewController topViewController);
+
+		[Export ("initWithTopViewController:")]
+		IntPtr Constructor (UIViewController topViewController);
 
 		[Export ("delegate"), NullAllowed]
 		NSObject WeakDelegate { get; set; }
@@ -193,14 +191,16 @@ namespace ECSlidingViewControllerLibrary
 	}
 
 	[BaseType (typeof (NSObject))]
+	//[Adopts("UIViewControllerAnimatedTransitioning")]
+	//[Register("UIViewControllerAnimatedTransitioning"), Model]
+	//[Protocol(Name = "UIViewControllerAnimatedTransitioning")]
 	public partial interface ECSlidingAnimationController
 	{
-		// UIViewControllerAnimatedTransitioning
 		[Export ("transitionDuration:")]
-		double TransitionDuration (UIViewControllerContextTransitioning transitionContext);
+		double TransitionDuration (IUIViewControllerContextTransitioning transitionContext);
 
 		[Export ("animateTransition:")]
-		void AnimateTransition (UIViewControllerContextTransitioning transitionContext);
+		void AnimateTransition (IUIViewControllerContextTransitioning transitionContext);
 	}
 
 	[BaseType (typeof (ECPercentDrivenInteractiveTransition))]

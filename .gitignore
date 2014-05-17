@@ -23,7 +23,8 @@
 *.sbr
 *.sdf
 ipch/
-obj/
+[Oo]bj/
+[Oo]bj/*
 [Bb]in
 [Dd]ebug*/
 [Rr]elease*/

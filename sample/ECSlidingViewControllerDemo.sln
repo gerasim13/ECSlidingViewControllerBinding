@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECSlidingViewControllerDemo", "ECSlidingViewControllerDemo\ECSlidingViewControllerDemo.csproj", "{B0B90DC7-8191-4C81-A456-BF78F2B0A4DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECSlidingViewController", "..\binding\ECSlidingViewController.csproj", "{B0C62F63-DB74-4CBA-B46C-03C4E5CA3D0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0B90DC7-8191-4C81-A456-BF78F2B0A4DB}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{B0B90DC7-8191-4C81-A456-BF78F2B0A4DB}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{B0B90DC7-8191-4C81-A456-BF78F2B0A4DB}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{B0B90DC7-8191-4C81-A456-BF78F2B0A4DB}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{B0B90DC7-8191-4C81-A456-BF78F2B0A4DB}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{B0B90DC7-8191-4C81-A456-BF78F2B0A4DB}.Debug|iPhone.Build.0 = Debug|iPhone
+		{B0B90DC7-8191-4C81-A456-BF78F2B0A4DB}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{B0B90DC7-8191-4C81-A456-BF78F2B0A4DB}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{B0B90DC7-8191-4C81-A456-BF78F2B0A4DB}.Release|iPhone.ActiveCfg = Release|iPhone
+		{B0B90DC7-8191-4C81-A456-BF78F2B0A4DB}.Release|iPhone.Build.0 = Release|iPhone
+		{B0B90DC7-8191-4C81-A456-BF78F2B0A4DB}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{B0B90DC7-8191-4C81-A456-BF78F2B0A4DB}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{B0C62F63-DB74-4CBA-B46C-03C4E5CA3D0A}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{B0C62F63-DB74-4CBA-B46C-03C4E5CA3D0A}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{B0C62F63-DB74-4CBA-B46C-03C4E5CA3D0A}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{B0C62F63-DB74-4CBA-B46C-03C4E5CA3D0A}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{B0C62F63-DB74-4CBA-B46C-03C4E5CA3D0A}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{B0C62F63-DB74-4CBA-B46C-03C4E5CA3D0A}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{B0C62F63-DB74-4CBA-B46C-03C4E5CA3D0A}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{B0C62F63-DB74-4CBA-B46C-03C4E5CA3D0A}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{B0C62F63-DB74-4CBA-B46C-03C4E5CA3D0A}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{B0C62F63-DB74-4CBA-B46C-03C4E5CA3D0A}.Release|iPhone.Build.0 = Release|Any CPU
+		{B0C62F63-DB74-4CBA-B46C-03C4E5CA3D0A}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{B0C62F63-DB74-4CBA-B46C-03C4E5CA3D0A}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = ECSlidingViewControllerDemo\ECSlidingViewControllerDemo.csproj
+	EndGlobalSection
+EndGlobal

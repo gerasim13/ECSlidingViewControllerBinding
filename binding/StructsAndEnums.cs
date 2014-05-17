@@ -1,6 +1,6 @@
 using System;
 
-namespace ECSlidingViewControllerLibrary
+namespace ECSlidingViewControllerLib
 {
 	[Flags]
 	public enum ECSlidingViewControllerOperation
