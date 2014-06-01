@@ -227,7 +227,7 @@ namespace ECSlidingViewControllerLib
 		RectangleF SlidingViewController (ECSlidingViewController slidingViewController, UIViewController viewController, ECSlidingViewControllerTopViewPosition topViewPosition);
 	}
 
-	[Model, BaseType (typeof (NSObject))]
+	[Model, BaseType (typeof (NSObject)), Protocol]
 	public partial interface ECSlidingViewControllerDelegate
 	{
 		[Export ("slidingViewController:animationControllerForOperation:topViewController:")]
